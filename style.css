@@ -1,0 +1,134 @@
+html, body{
+    margin: 0;
+    background-color: #F4F4F4;
+}
+html {
+  scroll-behavior: smooth;
+}
+.nav-link{
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn){
+    font-size: .8rem;
+}
+h1{
+    font-weight: 700;
+    font-size: 2.8rem;
+    font-family: 'Roboto Mono', monospace;
+    word-spacing: -1rem;
+}
+
+.feature h1{
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    background: -webkit-linear-gradient(#F7506E, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.img1{
+    height : 50vh
+}
+.buttons{
+    margin-top: 25px;
+}
+.buttons a{
+    padding: 15px 0px;
+    width: 200px;
+}
+.buttons .google{
+    background-color: #fff;
+}
+
+.buttons .apple{
+    background-color: #232838;
+    margin-left: 25px;
+}
+.section{
+    background: none;
+    padding: 0px;
+}
+.carousel .carousel-inner{
+    box-shadow: none;
+}
+.carousel-indicators{
+    position: relative;
+    bottom: 0;
+    margin-top: 10px;
+}
+.carousel-indicators li {
+  width: 30px;
+  height: 15px;
+  background-color: rgba(255, 255, 255, 0);
+  border: white 2px solid;
+  border-radius: 25px;
+}
+.carousel-indicators .active {
+  width: 15px;
+  height: 15px;
+  border-radius: 25px;
+}
+.wave{
+    position: absolute;
+    top: 70vh;
+    left:0;
+}
+
+.index-page .page-header {
+  min-height: 80vh;
+}
+ .page-header .container{
+top: 10vh;
+ }
+
+.background{
+    background-color: #F7506E;
+    height: 70vh;
+}
+
+.feature{
+    margin-bottom: 50px;
+    background: #F4F4F4;
+}
+
+.box{
+    background: #fff;
+    color: #000;
+    width: 250px;
+    height: 250px;
+    transition: background 1s;
+}
+.box:hover{
+    background:#F7506E;
+    color: #fff;
+}
+
+
+
+.fa-gem{
+    font-size: 2rem;
+margin: 25px 0px;
+color: white;
+}
+
+.fa-gem:hover{
+    color: black;
+}
+
+.fa-icon{
+   background: #F7506E;
+border-radius: 50%;
+width: 80px;
+height: 80px;
+text-align: center;
+}
+/* .fa-icon:hover{
+    background: #fff;
+} */
+
+.box:hover + .fa-icon{
+   background: #fff;
+}
+
