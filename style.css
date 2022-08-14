@@ -116,29 +116,24 @@ top: 10vh;
 }
 
 
-
-.fa-gem{
-    font-size: 2rem;
-margin: 25px 0px;
-color: white;
+.feature-title{
+        font-family: 'DynaPuff', cursive;
+        font-weight: 700;
+} 
+.feature-article{
+     font-family: 'DynaPuff';
+    font-weight: 400;
+}
+.main {
+  background: #f4f4f4;
 }
 
-.fa-gem:hover{
-    color: black;
-}
-
-.fa-icon{
-   background: #F7506E;
-border-radius: 50%;
-width: 80px;
-height: 80px;
-text-align: center;
-}
-/* .fa-icon:hover{
+.Subscribe{
     background: #fff;
-*/
-
-.box:hover + .fa-icon{
-   background: #fff;
+    margin-top: 150px;
 }
-
+#feature{
+    margin-bottom: 100px;
+height: 10px;
+display: block;
+}
