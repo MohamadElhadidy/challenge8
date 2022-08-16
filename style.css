@@ -115,8 +115,7 @@ top: 10vh;
     color: #fff;
 }
 
-
-.feature-title{
+.font-bold{
         font-family: 'DynaPuff', cursive;
         font-weight: 700;
 } 
@@ -131,9 +130,18 @@ top: 10vh;
 .Subscribe{
     background: #fff;
     margin-top: 150px;
+      padding: 20vh 0px
 }
 #feature{
     margin-bottom: 100px;
 height: 10px;
 display: block;
+}
+
+.Subscribe-title{
+     font-size: 1.8rem;
+}
+
+.btn-info {
+  background-color: #cc4d24;
 }
