@@ -9,7 +9,9 @@ html {
     margin: 0 5px;
     font-weight: bold;
 }
-
+.main{
+	scroll-padding-top: 2em;
+}
 .navbar .navbar-nav .nav-link:not(.btn){
     font-size: .8rem;
 } 
